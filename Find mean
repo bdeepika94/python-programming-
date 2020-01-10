@@ -1,0 +1,13 @@
+#get a list as input from the user
+list = []
+a = int(input("enter the number of elements:"))
+for i in range(0,a):
+    ele = int(input())
+    list.append(float(ele))
+print(list)
+#find the mean
+for x in list:
+    sum = 0
+    sum += x
+    mean = float(sum)/a
+print(mean)
